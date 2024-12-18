@@ -4,7 +4,7 @@ const UserCard = ({user}) =>
     // eslint-disable-next-line react/prop-types
     const {firstName, lastName, age, gender} = user;
     return (
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-300 w-96 shadow-xl my-10 mx-10">
   <figure>
     <img
       src={lastName}
